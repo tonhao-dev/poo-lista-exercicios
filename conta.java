@@ -1,5 +1,5 @@
 class Conta {
-  String nome_titular;
+  String titular;
   int numero;
   String agencia;
   double saldo;
@@ -21,7 +21,7 @@ class Conta {
 
   String recuperaDadosParaImpressao() {
     return
-      "Titular: " + this.nome_titular + "\n" +
+      "Titular: " + this.titular + "\n" +
       "Numero: " + this.numero + "\n" +
       "Agencia: " + this.agencia + "\n" +
       "Saldo: " + this.saldo + "\n" +
