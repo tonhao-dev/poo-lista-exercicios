@@ -1,9 +1,9 @@
 class Conta {
-  String titular;
-  int numero;
-  String agencia;
-  double saldo;
-  String data_abertura;
+  private String titular;
+  private int numero;
+  private String agencia;
+  private double saldo;
+  private String data_abertura;
 
   //	seus	outros	atributos	e	métodos
   void saca(double valor) {
