@@ -5,6 +5,19 @@ class Conta {
   private double saldo;
   private String data_abertura;
 
+  public Conta(String titular, int numero, String agencia, double saldo) {
+    this.titular = titular;
+    this.numero = numero;
+    this.agencia = agencia;
+    this.saldo = saldo;
+  }
+
+  public Conta(int numero, String agencia, double saldo) {
+    this.numero = numero;
+    this.agencia = agencia;
+    this.saldo = saldo;
+  }
+
   //	seus	outros	atributos	e	métodos
   void saca(double valor) {
     this.saldo = saldo + valor;
