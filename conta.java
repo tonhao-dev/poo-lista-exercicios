@@ -27,4 +27,44 @@ class Conta {
       "Saldo: " + this.saldo + "\n" +
       "Data de abertura: " + this.data_abertura + "\n";
   }
+
+  String getTitular() {
+    return this.titular;
+  }
+
+  void setTitular(String titular) {
+    this.titular = titular;
+  }
+
+  int getNumero() {
+    return this.numero;
+  }
+
+  void setNumero(int numero) {
+    this.numero = numero;
+  }
+
+  String getAgencia() {
+    return this.agencia;
+  }
+
+  void setAgencia(String agencia) {
+    this.agencia = agencia;
+  }
+
+  double getSaldo() {
+    return this.saldo;
+  }
+
+  void setSaldo(double saldo) {
+    this.saldo = saldo;
+  }
+
+  String getDataAbertura() {
+    return this.data_abertura;
+  }
+
+  void setDataAbertura(String data_abertura) {
+    this.data_abertura = data_abertura;
+  }
 }
